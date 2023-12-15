@@ -3,7 +3,7 @@ function calculate() {
     const bruttoNetto = document.querySelector("#bruttoNetto").checked;
     const mwst7 = document.getElementById("mwst7").checked;
     const mwst19 = document.getElementById("mwst19").checked;
-    const nettobetrag = document.getElementById("amount").value;
+    const nettobetrag = Number(document.getElementById("amount").value);
     
     let output = document.getElementById("result");
     let result;
